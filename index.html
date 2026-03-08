@@ -1,0 +1,895 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Carousel Navigation with Person Cards</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+</head>
+
+<body>
+    <header class="header" id="header">
+        <div class="title">
+            <img width="60" src="images/bsit-logo.png" alt="BSIT-logo">
+            <h1>OUR MIDTERM PROJECT IN PC 223</h1>
+        </div>
+        <ul class="nav-menu" id="navMenu">
+            <li class="active" data-page="1">Home</li>
+            <li data-page="2">Portfolio</li>
+            <li data-page="3">Favorites</li>
+            <li data-page="4">Contact</li>
+        </ul>
+    </header>
+
+    <main class="main-container">
+        <div class="carousel" id="carousel">
+            <!-- Page 1 - Home (Team Members) -->
+            <div class="page" id="page1">
+                <div class="page-content">
+                    <section class="hero">
+                        <h2><i class="fa-solid fa-arrows-down-to-people"></i> Meet Our Amazing Team</h2>
+                        <p>We're a group of passionate individuals dedicated to creating amazing experiences and
+                            innovative solutions.</p>
+                    </section>
+
+                    <h2 class="section-title">Our Team Members</h2>
+
+                    <div class="persons-grid">
+                        <div class="person-card">
+                            <div class="person-image">
+                                <img src="images/geloy.jpg" alt="Luigie Delos Reyes">
+                            </div>
+                            <div class="person-info">
+                                <h3 class="person-name">Luigie Delos Reyes</h3>
+                                <div class="person-title">"Stressed, depressed, and broke, I only live for the 6 7
+                                    triad!!!!!, life is short but not short enough."</div>
+                                <div class="person-company">Goon</div>
+
+                                <div class="person-details">
+                                    <div class="person-detail-item">
+                                        <span>📧</span> luigieloy@gmail.com
+                                    </div>
+                                    <div class="person-detail-item">
+                                        <span>📱</span> 0923-406-4125
+                                    </div>
+                                    <div class="person-detail-item">
+                                        <span>📍</span> Argao, Cebu
+                                    </div>
+                                    <div class="person-detail-item">
+                                        <span>🎂</span> 19 yrs old
+                                    </div>
+                                </div>
+
+                                <div class="person-skills">
+                                    <span class="skill-tag">Eating</span>
+                                    <span class="skill-tag">Valoing</span>
+                                    <span class="skill-tag">Sleeping</span>
+                                    <span class="skill-tag">Reading</span>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="person-card">
+                            <div class="person-image">
+                                <img src="images/filman.jpg" alt="Jinfilman Nacilla">
+                            </div>
+                            <div class="person-info">
+                                <h3 class="person-name">Jinfilman Nacilla</h3>
+                                <div class="person-title">"Im just an ordinary alien living in an outstanding man,
+                                    singing is my strength while my weakness is low battery please charge."</div>
+                                <div class="person-company">Delightful</div>
+
+                                <div class="person-details">
+                                    <div class="person-detail-item">
+                                        <span>📧</span> jinnacilla@gmail.com
+                                    </div>
+                                    <div class="person-detail-item">
+                                        <span>📱</span> 0950-676-8693
+                                    </div>
+                                    <div class="person-detail-item">
+                                        <span>📍</span> Argao, Cebu
+                                    </div>
+                                    <div class="person-detail-item">
+                                        <span>🎂</span> 20 yrs old
+                                    </div>
+                                </div>
+
+                                <div class="person-skills">
+                                    <span class="skill-tag">Basic Digital Literacy</span>
+                                    <span class="skill-tag">Adaptability</span>
+                                    <span class="skill-tag">Communication skills</span>
+                                    <span class="skill-tag">Self Discipline</span>
+                                    <span class="skill-tag">Gago usahay permi</span>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="person-card">
+                            <div class="person-image">
+                                <img src="images/jarel.png" alt="Jarel Binggan">
+                            </div>
+                            <div class="person-info">
+                                <h3 class="person-name">Jarel Binggan</h3>
+                                <div class="person-title">"I am currently experiencing a technical difficulty called
+                                    "feelings". Please wait while I am rebooting."</div>
+                                <div class="person-company">Depende's sabot</div>
+
+                                <div class="person-details">
+                                    <div class="person-detail-item">
+                                        <span>📧</span> jarelbinggan@company.com
+                                    </div>
+                                    <div class="person-detail-item">
+                                        <span>📱</span> 0961-957-7981
+                                    </div>
+                                    <div class="person-detail-item">
+                                        <span>🏡<span> Dalaguete, Cebu
+                                    </div>
+                                    <div class="person-detail-item">
+                                        <span>🎂</span> 19 yrs old
+                                    </div>
+                                </div>
+
+                                <div class="person-skills">
+                                    <span class="skill-tag">Agile</span>
+                                    <span class="skill-tag">Scrum</span>
+                                    <span class="skill-tag">Strategy</span>
+                                    <span class="skill-tag">Analytics</span>
+                                    <span class="skill-tag">Leadership</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div style="margin-top: 3rem; text-align: center;">
+                        <p style="opacity: 0.7;">👇 Scroll down for more team updates</p>
+                    </div>
+
+                    <div class="card">
+                        <h3>📢 Team Announcements</h3>
+                        <p>We're growing! Welcome our newest team members joining next month.</p>
+                    </div>
+
+                    <div class="card">
+                        <h3>🏆 Team Achievements</h3>
+                        <p>Our team just won the "3rd runner up in Sepak Takraw" of Intramurals 2025-2026 in CTU-AC!</p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Page 2 - Features -->
+<!-- Page 2 - Features -->
+<div class="page" id="page2">
+    <div class="page-content">
+        <h2 style="font-size: 2.5rem; margin-bottom: 2rem; text-align: center; color: white;">
+            <i class="fa-solid fa-crown"></i> Portfolio <i class="fa-solid fa-crown"></i>
+        </h2>
+        
+        <div class="features-grid">
+            <!-- Feature 1 - Temperature Converter -->
+            <div class="feature-card">
+                <div class="feature-badge">🌡️</div>
+                <div class="feature-header">
+                    <div class="feature-icon">
+                        <i class="fa-solid fa-temperature-high"></i>
+                    </div>
+                    <h3>Temperature Converter</h3>
+                </div>
+                <div class="feature-content">
+                    <div class="feature-image">
+                        <img src="images/temp.png" alt="Temperature Converter" onerror="this.src='https://via.placeholder.com/150x150?text=🌡️'">
+                    </div>
+                    <div class="feature-description">
+                        <p>Convert between Celsius and Fahrenheit with our easy-to-use temperature converter.</p>
+                    </div>
+                </div>
+                <div class="feature-action">
+                    <button class="feature-btn" onclick="temperatureConverter()">
+                        <span>Try it Now</span>
+                        <i class="fa-solid fa-arrow-right"></i>
+                    </button>
+                </div>
+            </div>
+
+            <!-- Feature 2 - Longer Words -->
+            <div class="feature-card">
+                <div class="feature-badge">📝</div>
+                <div class="feature-header">
+                    <div class="feature-icon">
+                        <i class="fa-solid fa-text-height"></i>
+                    </div>
+                    <h3>Longer Words</h3>
+                </div>
+                <div class="feature-content">
+                    <div class="feature-image">
+                        <img src="images/longer.jpg" alt="Longer Words" onerror="this.src='https://via.placeholder.com/150x150?text=📝'">
+                    </div>
+                    <div class="feature-description">
+                        <p>Find the longest word in any sentence or paragraph you enter.</p>
+                    </div>
+                </div>
+                <div class="feature-action">
+                    <button class="feature-btn" onclick="findLongestWord()">
+                        <span>Try it Now</span>
+                        <i class="fa-solid fa-arrow-right"></i>
+                    </button>
+                </div>
+            </div>
+
+            <!-- Feature 3 - Know my Birth Stone -->
+            <div class="feature-card">
+                <div class="feature-badge">💎</div>
+                <div class="feature-header">
+                    <div class="feature-icon">
+                        <i class="fa-solid fa-gem"></i>
+                    </div>
+                    <h3>Know my Birth Stone</h3>
+                </div>
+                <div class="feature-content">
+                    <div class="feature-image">
+                        <img src="images/stones.jpg" alt="Birth Stone" onerror="this.src='https://via.placeholder.com/150x150?text=💎'">
+                    </div>
+                    <div class="feature-description">
+                        <p>Discover your birthstone based on your birth month.</p>
+                    </div>
+                </div>
+                <div class="feature-action">
+                    <button class="feature-btn" onclick="findBirthstone()">
+                        <span>Try it Now</span>
+                        <i class="fa-solid fa-arrow-right"></i>
+                    </button>
+                </div>
+            </div>
+
+            <!-- Feature 4 - Basic Operators -->
+            <div class="feature-card">
+                <div class="feature-badge">🧮</div>
+                <div class="feature-header">
+                    <div class="feature-icon">
+                        <i class="fa-solid fa-calculator"></i>
+                    </div>
+                    <h3>Basic Operators</h3>
+                </div>
+                <div class="feature-content">
+                    <div class="feature-image">
+                        <img src="images/math.png" alt="Basic Operators" onerror="this.src='https://via.placeholder.com/150x150?text=🧮'">
+                    </div>
+                    <div class="feature-description">
+                        <p>Perform basic arithmetic operations like addition, subtraction, multiplication, and division.</p>
+                    </div>
+                </div>
+                <div class="feature-action">
+                    <button class="feature-btn" onclick="basicCalculator()">
+                        <span>Try it Now</span>
+                        <i class="fa-solid fa-arrow-right"></i>
+                    </button>
+                </div>
+            </div>
+
+            <!-- Feature 5 - Compute for Acceleration -->
+            <div class="feature-card">
+                <div class="feature-badge">⚡</div>
+                <div class="feature-header">
+                    <div class="feature-icon">
+                        <i class="fa-solid fa-gauge-high"></i>
+                    </div>
+                    <h3>Compute for Acceleration</h3>
+                </div>
+                <div class="feature-content">
+                    <div class="feature-image">
+                        <img src="images/acce.png" alt="Acceleration" onerror="this.src='https://via.placeholder.com/150x150?text=⚡'">
+                    </div>
+                    <div class="feature-description">
+                        <p>Calculate acceleration using initial velocity, final velocity, and time.</p>
+                    </div>
+                </div>
+                <div class="feature-action">
+                    <button class="feature-btn" onclick="calculateAcceleration()">
+                        <span>Try it Now</span>
+                        <i class="fa-solid fa-arrow-right"></i>
+                    </button>
+                </div>
+            </div>
+
+            <!-- Feature 6 - Mood Theme -->
+            <div class="feature-card">
+                <div class="feature-badge">😊</div>
+                <div class="feature-header">
+                    <div class="feature-icon">
+                        <i class="fa-solid fa-face-smile"></i>
+                    </div>
+                    <h3>Mood Theme</h3>
+                </div>
+                <div class="feature-content">
+                    <div class="feature-image">
+                        <img src="images/mood.jpg" alt="Mood Theme" onerror="this.src='https://via.placeholder.com/150x150?text=😊'">
+                    </div>
+                    <div class="feature-description">
+                        <p>Get a motivational message based on your current mood.</p>
+                    </div>
+                </div>
+                <div class="feature-action">
+                    <button class="feature-btn" onclick="moodChecker()">
+                        <span>Try it Now</span>
+                        <i class="fa-solid fa-arrow-right"></i>
+                    </button>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+            <!-- Page 3 - Favorites (12 Painting Cards in 3x4 Grid) -->
+            <div class="page" id="page3">
+                <div class="page-content">
+                    <h2 style="font-size: 2.5rem; margin-bottom: 2rem; text-align: center;">Favorite Paintings</h2>
+
+                    <div class="painting-grid">
+                        <!-- Painting 1 - Mona Lisa -->
+                        <div class="favorite-card">
+                            <button class="like-btn" onclick="toggleLike(this)" id="likeBtn1">
+                                <i id="heart1" class="fa-regular fa-heart"></i>
+                            </button>
+
+                            <div class="card-image">
+                                <a href=""></a>
+                                <img width="20" src="images/monaliza.png" alt="Mona Lisa">
+                            </div>
+
+                            <div class="card-title">Mona Lisa</div>
+                            <div class="card-artist">Leonardo da Vinci</div>
+                            <span class="painting-year">1503-1505</span>
+
+                            <div class="card-description">
+                                The half-length portrait painting is one of the world's most famous artworks. Known for
+                                the subject's enigmatic expression.
+                            </div>
+
+                            <div class="card-footer">
+                                <span><i class="fa-regular fa-eye"></i> 2.5k views</span>
+                                <span><i class="fa-regular fa-comment"></i> <span id="commentCount1">0</span>
+                                    comments</span>
+                            </div>
+
+                            <div class="comment-section">
+                                <div class="comment-input-container">
+                                    <input type="text" class="comment-input" id="commentInput1"
+                                        placeholder="Write a comment...">
+                                    <button class="comment-btn"
+                                        onclick="addComment(this, 'commentsList1', 'commentCount1')">Post</button>
+                                </div>
+                                <ul class="comments-list" id="commentsList1"></ul>
+                            </div>
+                        </div>
+
+                        <!-- Painting 2 - The Birth of Venus -->
+                        <div class="favorite-card">,
+                            <button class="like-btn" onclick="toggleLike(this)" id="likeBtn2">
+                                <i id="heart2" class="fa-regular fa-heart"></i>
+                            </button>
+
+                            <div class="card-image">
+                                <img src="images/the birth.png" alt="The Birth of Venus"
+                                    onerror="this.src='https:via.placeholder.com/300x180?text=Birth+of+Venus'">
+                            </div>
+
+                            <div class="card-title">The Birth of Venus</div>
+                            <div class="card-artist">Sandro Botticelli</div>
+                            <span class="painting-year">1486</span>
+
+                            <div class="card-description">
+                                Depicts the goddess Venus arriving at the shore after her birth, standing on a giant
+                                scallop shell.
+                            </div>
+
+                            <div class="card-footer">
+                                <span><i class="fa-regular fa-eye"></i> 3.1k views</span>
+                                <span><i class="fa-regular fa-comment"></i> <span id="commentCount2">0</span>
+                                    comments</span>
+                            </div>
+
+                            <div class="comment-section">
+                                <div class="comment-input-container">
+                                    <input type="text" class="comment-input" id="commentInput2"
+                                        placeholder="Write a comment...">
+                                    <button class="comment-btn"
+                                        onclick="addComment(this, 'commentsList2', 'commentCount2')">Post</button>
+                                </div>
+                                <ul class="comments-list" id="commentsList2"></ul>
+                            </div>
+                        </div>
+
+                        <!-- Painting 3 - The Creation of Adam -->
+                        <div class="favorite-card">
+                            <button class="like-btn" onclick="toggleLike(this)" id="likeBtn3">
+                                <i id="heart3" class="fa-regular fa-heart"></i>
+                            </button>
+
+                            <div class="card-image">
+                                <img src="images/the creation.png" alt="The Creation of Adam"
+                                    onerror="this.src='https:via.placeholder.com/300x180?text=Creation+of+Adam'">
+                            </div>
+
+                            <div class="card-title">The Creation of Adam</div>
+                            <div class="card-artist">Michelangelo</div>
+                            <span class="painting-year">1511</span>
+
+                            <div class="card-description">
+                                Illustrates the biblical story from the Book of Genesis in which God gives life to Adam,
+                                the first man.
+                            </div>
+
+                            <div class="card-footer">
+                                <span><i class="fa-regular fa-eye"></i> 4.2k views</span>
+                                <span><i class="fa-regular fa-comment"></i> <span id="commentCount3">0</span>
+                                    comments</span>
+                            </div>
+
+                            <div class="comment-section">
+                                <div class="comment-input-container">
+                                    <input type="text" class="comment-input" id="commentInput3"
+                                        placeholder="Write a comment...">
+                                    <button class="comment-btn"
+                                        onclick="addComment(this, 'commentsList3', 'commentCount3')">Post</button>
+                                </div>
+                                <ul class="comments-list" id="commentsList3"></ul>
+                            </div>
+                        </div>
+
+                        <!-- Painting 4 - The Last Supper -->
+                        <div class="favorite-card">
+                            <button class="like-btn" onclick="toggleLike(this)" id="likeBtn4">
+                                <i id="heart4" class="fa-regular fa-heart"></i>
+                            </button>
+
+                            <div class="card-image">
+                                <img src="images/the last.png" alt="The Last Supper"
+                                    onerror="this.src='https:via.placeholder.com/300x180?text=Last+Supper'">
+                            </div>
+
+                            <div class="card-title">The Last Supper</div>
+                            <div class="card-artist">Leonardo da Vinci</div>
+                            <span class="painting-year">1495-1498</span>
+
+                            <div class="card-description">
+                                Depicts the scene of The Last Supper of Jesus with the Twelve Apostles, as told in the
+                                Gospel of John.
+                            </div>
+
+                            <div class="card-footer">
+                                <span><i class="fa-regular fa-eye"></i> 3.8k views</span>
+                                <span><i class="fa-regular fa-comment"></i> <span id="commentCount4">0</span>
+                                    comments</span>
+                            </div>
+
+                            <div class="comment-section">
+                                <div class="comment-input-container">
+                                    <input type="text" class="comment-input" id="commentInput4"
+                                        placeholder="Write a comment...">
+                                    <button class="comment-btn"
+                                        onclick="addComment(this, 'commentsList4', 'commentCount4')">Post</button>
+                                </div>
+                                <ul class="comments-list" id="commentsList4"></ul>
+                            </div>
+                        </div>
+
+                        <!-- Painting 5 - Sacred and Profane Love -->
+                        <div class="favorite-card">
+                            <button class="like-btn" onclick="toggleLike(this)" id="likeBtn5">
+                                <i id="heart5" class="fa-regular fa-heart"></i>
+                            </button>
+
+                            <div class="card-image">
+                                <img src="images/sacred.png" alt="Sacred and Profane Love"
+                                    onerror="this.src='https:via.placeholder.com/300x180?text=Sacred+and+Profane+Love'">
+                            </div>
+
+                            <div class="card-title">Sacred and Profane Love</div>
+                            <div class="card-artist">Titian</div>
+                            <span class="painting-year">1515-1516</span>
+
+                            <div class="card-description">
+                                An allegorical painting depicting two women, one dressed richly and one nude,
+                                representing different forms of love.
+                            </div>
+
+                            <div class="card-footer">
+                                <span><i class="fa-regular fa-eye"></i> 2.1k views</span>
+                                <span><i class="fa-regular fa-comment"></i> <span id="commentCount5">0</span>
+                                    comments</span>
+                            </div>
+
+                            <div class="comment-section">
+                                <div class="comment-input-container">
+                                    <input type="text" class="comment-input" id="commentInput5"
+                                        placeholder="Write a comment...">
+                                    <button class="comment-btn"
+                                        onclick="addComment(this, 'commentsList5', 'commentCount5')">Post</button>
+                                </div>
+                                <ul class="comments-list" id="commentsList5"></ul>
+                            </div>
+                        </div>
+
+                        <!-- Painting 6 - The Ancient of Days -->
+                        <div class="favorite-card">
+                            <button class="like-btn" onclick="toggleLike(this)" id="likeBtn6">
+                                <i id="heart6" class="fa-regular fa-heart"></i>
+                            </button>
+
+                            <div class="card-image">
+                                <img src="images/the ancient.png" alt="The Ancient of Days"
+                                    onerror="this.src='https:via.placeholder.com/300x180?text=Ancient+of+Days'">
+                            </div>
+
+                            <div class="card-title">The Ancient of Days</div>
+                            <div class="card-artist">William Blake</div>
+                            <span class="painting-year">1794</span>
+
+                            <div class="card-description">
+                                Shows Urizen, a figure representing reason and law, creating the universe with a golden
+                                compass.
+                            </div>
+
+                            <div class="card-footer">
+                                <span><i class="fa-regular fa-eye"></i> 1.9k views</span>
+                                <span><i class="fa-regular fa-comment"></i> <span id="commentCount6">0</span>
+                                    comments</span>
+                            </div>
+
+                            <div class="comment-section">
+                                <div class="comment-input-container">
+                                    <input type="text" class="comment-input" id="commentInput6"
+                                        placeholder="Write a comment...">
+                                    <button class="comment-btn"
+                                        onclick="addComment(this, 'commentsList6', 'commentCount6')">Post</button>
+                                </div>
+                                <ul class="comments-list" id="commentsList6"></ul>
+                            </div>
+                        </div>
+
+                        <!-- Painting 7 - Girl with a Pearl Earring -->
+                        <div class="favorite-card">
+                            <button class="like-btn" onclick="toggleLike(this)" id="likeBtn7">
+                                <i id="heart7" class="fa-regular fa-heart"></i>
+                            </button>
+
+                            <div class="card-image">
+                                <img src="images/girl with.png" alt="Girl with a Pearl Earring"
+                                    onerror="this.src='https:via.placeholder.com/300x180?text=Girl+with+Pearl+Earring'">
+                            </div>
+
+                            <div class="card-title">Girl with a Pearl Earring</div>
+                            <div class="card-artist">Johannes Vermeer</div>
+                            <span class="painting-year">1665</span>
+
+                            <div class="card-description">
+                                Often called the "Mona Lisa of the North," this painting shows a young woman wearing a
+                                large pearl earring.
+                            </div>
+
+                            <div class="card-footer">
+                                <span><i class="fa-regular fa-eye"></i> 3.3k views</span>
+                                <span><i class="fa-regular fa-comment"></i> <span id="commentCount7">0</span>
+                                    comments</span>
+                            </div>
+
+                            <div class="comment-section">
+                                <div class="comment-input-container">
+                                    <input type="text" class="comment-input" id="commentInput7"
+                                        placeholder="Write a comment...">
+                                    <button class="comment-btn"
+                                        onclick="addComment(this, 'commentsList7', 'commentCount7')">Post</button>
+                                </div>
+                                <ul class="comments-list" id="commentsList7"></ul>
+                            </div>
+                        </div>
+
+                        <!-- Painting 8 - The Night Watch -->
+                        <div class="favorite-card">
+                            <button class="like-btn" onclick="toggleLike(this)" id="likeBtn8">
+                                <i id="heart8" class="fa-regular fa-heart"></i>
+                            </button>
+
+                            <div class="card-image">
+                                <img src="images/the night.png" alt="The Night Watch"
+                                    onerror="this.src='https:via.placeholder.com/300x180?text=Night+Watch'">
+                            </div>
+
+                            <div class="card-title">The Night Watch</div>
+                            <div class="card-artist">Rembrandt</div>
+                            <span class="painting-year">1642</span>
+
+                            <div class="card-description">
+                                A group portrait of a militia company, known for its dramatic use of light and shadow
+                                and sense of movement.
+                            </div>
+
+                            <div class="card-footer">
+                                <span><i class="fa-regular fa-eye"></i> 4.5k views</span>
+                                <span><i class="fa-regular fa-comment"></i> <span id="commentCount8">0</span>
+                                    comments</span>
+                            </div>
+
+                            <div class="comment-section">
+                                <div class="comment-input-container">
+                                    <input type="text" class="comment-input" id="commentInput8"
+                                        placeholder="Write a comment...">
+                                    <button class="comment-btn"
+                                        onclick="addComment(this, 'commentsList8', 'commentCount8')">Post</button>
+                                </div>
+                                <ul class="comments-list" id="commentsList8"></ul>
+                            </div>
+                        </div>
+
+                        <!-- Painting 9 - The Sistine Madonna -->
+                        <div class="favorite-card">
+                            <button class="like-btn" onclick="toggleLike(this)" id="likeBtn9">
+                                <i id="heart9" class="fa-regular fa-heart"></i>
+                            </button>
+
+                            <div class="card-image">
+                                <img src="images/the sistine.png" alt="The Sistine Madonna"
+                                    onerror="this.src='https:via.placeholder.com/300x180?text=Sistine+Madonna'">
+                            </div>
+
+                            <div class="card-title">The Sistine Madonna</div>
+                            <div class="card-artist">Raphael</div>
+                            <span class="painting-year">1512</span>
+
+                            <div class="card-description">
+                                Famous for the two cherubs at the bottom, this painting depicts the Madonna holding the
+                                Christ Child.
+                            </div>
+
+                            <div class="card-footer">
+                                <span><i class="fa-regular fa-eye"></i> 2.8k views</span>
+                                <span><i class="fa-regular fa-comment"></i> <span id="commentCount9">0</span>
+                                    comments</span>
+                            </div>
+
+                            <div class="comment-section">
+                                <div class="comment-input-container">
+                                    <input type="text" class="comment-input" id="commentInput9"
+                                        placeholder="Write a comment...">
+                                    <button class="comment-btn"
+                                        onclick="addComment(this, 'commentsList9', 'commentCount9')">Post</button>
+                                </div>
+                                <ul class="comments-list" id="commentsList9"></ul>
+                            </div>
+                        </div>
+
+                        <!-- Painting 10 - Liberty Leading the People -->
+                        <div class="favorite-card">
+                            <button class="like-btn" onclick="toggleLike(this)" id="likeBtn10">
+                                <i id="heart10" class="fa-regular fa-heart"></i>
+                            </button>
+
+                            <div class="card-image">
+                                <img src="images/liberty.png" alt="Liberty Leading the People"
+                                    onerror="this.src='https:via.placeholder.com/300x180?text=Liberty+Leading'">
+                            </div>
+
+                            <div class="card-title">Liberty Leading the People</div>
+                            <div class="card-artist">Eugène Delacroix</div>
+                            <span class="painting-year">1830</span>
+
+                            <div class="card-description">
+                                Commemorates the July Revolution of 1830, showing Liberty personified leading the people
+                                forward.
+                            </div>
+
+                            <div class="card-footer">
+                                <span><i class="fa-regular fa-eye"></i> 3.6k views</span>
+                                <span><i class="fa-regular fa-comment"></i> <span id="commentCount10">0</span>
+                                    comments</span>
+                            </div>
+
+                            <div class="comment-section">
+                                <div class="comment-input-container">
+                                    <input type="text" class="comment-input" id="commentInput10"
+                                        placeholder="Write a comment...">
+                                    <button class="comment-btn"
+                                        onclick="addComment(this, 'commentsList10', 'commentCount10')">Post</button>
+                                </div>
+                                <ul class="comments-list" id="commentsList10"></ul>
+                            </div>
+                        </div>
+
+                        <!-- Painting 11 - The Madonna Litta -->
+                        <div class="favorite-card">
+                            <button class="like-btn" onclick="toggleLike(this)" id="likeBtn11">
+                                <i id="heart11" class="fa-regular fa-heart"></i>
+                            </button>
+
+                            <div class="card-image">
+                                <img src="images/the madonna.png" alt="The Madonna Litta"
+                                    onerror="this.src='https:via.placeholder.com/300x180?text=Madonna+Litta'">
+                            </div>
+
+                            <div class="card-title">The Madonna Litta</div>
+                            <div class="card-artist">Leonardo da Vinci</div>
+                            <span class="painting-year">1491</span>
+
+                            <div class="card-description">
+                                Depicts the Virgin Mary breastfeeding the Christ Child, a popular subject in Renaissance
+                                art.
+                            </div>
+
+                            <div class="card-footer">
+                                <span><i class="fa-regular fa-eye"></i> 1.7k views</span>
+                                <span><i class="fa-regular fa-comment"></i> <span id="commentCount11">0</span>
+                                    comments</span>
+                            </div>
+
+                            <div class="comment-section">
+                                <div class="comment-input-container">
+                                    <input type="text" class="comment-input" id="commentInput11"
+                                        placeholder="Write a comment...">
+                                    <button class="comment-btn"
+                                        onclick="addComment(this, 'commentsList11', 'commentCount11')">Post</button>
+                                </div>
+                                <ul class="comments-list" id="commentsList11"></ul>
+                            </div>
+                        </div>
+
+                        <!-- Painting 12 - Landscape with the Fall of Icarus -->
+                        <div class="favorite-card">
+                            <button class="like-btn" onclick="toggleLike(this)" id="likeBtn12">
+                                <i id="heart12" class="fa-regular fa-heart"></i>
+                            </button>
+
+                            <div class="card-image">
+                                <img src="images/landscape.png" alt="Landscape with the Fall of Icarus"
+                                    onerror="this.src='https:via.placeholder.com/300x180?text=Fall+of+Icarus'">
+                            </div>
+
+                            <div class="card-title">Landscape with the Fall of Icarus</div>
+                            <div class="card-artist">Pieter Bruegel</div>
+                            <span class="painting-year">1560</span>
+
+                            <div class="card-description">
+                                Shows the Greek myth of Icarus, who falls into the sea while life continues around him,
+                                unnoticed.
+                            </div>
+
+                            <div class="card-footer">
+                                <span><i class="fa-regular fa-eye"></i> 2.3k views</span>
+                                <span><i class="fa-regular fa-comment"></i> <span id="commentCount12">0</span>
+                                    comments</span>
+                            </div>
+
+                            <div class="comment-section">
+                                <div class="comment-input-container">
+                                    <input type="text" class="comment-input" id="commentInput12"
+                                        placeholder="Write a comment...">
+                                    <button class="comment-btn"
+                                        onclick="addComment(this, 'commentsList12', 'commentCount12')">Post</button>
+                                </div>
+                                <ul class="comments-list" id="commentsList12"></ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Page 4 - Contact -->
+            <div class="page" id="page4">
+                <div class="page-content">
+                    <h2 style="font-size: 2.5rem; margin-bottom: 2rem; text-align: center;"><i class="fa-solid fa-phone"></i> Contact Us</h2>
+
+                    <div class="contact-container">
+                        <!-- Contact Information Section -->
+                        <div class="contact-info">
+                            <h3>Get in Touch</h3>
+                            <p class="contact-description">Have questions or want to work together? Reach out to us!</p>
+
+                            <div class="info-items">
+                                <div class="info-item">
+                                    <div class="info-icon"><i class="fa-duotone fa-solid fa-map-location"></i></div>
+                                    <div class="info-text">
+                                        <h4>Address</h4>
+                                        <p>Cebu Technological University - Argao Campus<br>Argao, Cebu 6021</p>
+                                    </div>
+                                </div>
+
+                                <div class="info-item">
+                                    <div class="info-icon"><i class="fa-solid fa-envelope"></i></div>
+                                    <div class="info-text">
+                                        <h4>Email</h4>
+                                        <p>info@ctu-argao.edu.ph<br>support@ctu-argao.edu.ph</p>
+                                    </div>
+                                </div>
+                                <div class="info-item">
+                                    <div class="info-icon"><i class="fa-solid fa-phone"></i></div>
+                                    <div class="info-text">
+                                        <h4>Phone</h4>
+                                        <p>(+63) 961 957 7981<br>(+63) 923 406 4125</p>
+                                    </div>
+                                </div>
+
+                                <div class="info-item">
+                                    <div class="info-icon"><i class="fa-solid fa-clock"></i></div>
+                                    <div class="info-text">
+                                        <h4>Office Hours</h4>
+                                        <p>Monday - Friday: 8:00 AM - 5:00 PM<br>Saturday: 9:00 AM - 12:00 PM</p>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <!-- Social Media Links -->
+                            <div class="social-links">
+                                <h4>Follow Us</h4>
+                                <div class="social-icons">
+                                    <a href="#" class="social-icon"><i class="fa-brands fa-facebook"></i></a>
+                                    <a href="#" class="social-icon"><i class="fa-brands fa-twitter"></i></a>
+                                    <a href="#" class="social-icon"><i class="fa-brands fa-instagram"></i></a>
+                                    <a href="#" class="social-icon"><i class="fa-brands fa-youtube"></i></a>
+                                    <a href="#" class="social-icon"><i class="fa-brands fa-linkedin"></i></a>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- Contact Form Section -->
+                        <div class="contact-form">
+                            <h3>Send Us a Message</h3>
+
+                            <form id="contactForm" onsubmit="return submitContactForm(event)">
+                                <div class="form-group">
+                                    <label for="name">Your Name</label>
+                                    <input type="text" id="name" name="name" placeholder="Enter your full name"
+                                        required>
+                                </div>
+
+                                <div class="form-group">
+                                    <label for="email">Email Address</label>
+                                    <input type="email" id="email" name="email" placeholder="Enter your email" required>
+                                </div>
+
+                                <div class="form-group">
+                                    <label for="subject">Subject</label>
+                                    <input type="text" id="subject" name="subject" placeholder="What is this about?">
+                                </div>
+
+                                <div class="form-group">
+                                    <label for="message">Message</label>
+                                    <textarea id="message" name="message" rows="5"
+                                        placeholder="Type your message here..." required></textarea>
+                                </div>
+
+                                <div class="form-group checkbox-group">
+                                    <input type="checkbox" id="subscribe" name="subscribe">
+                                    <label for="subscribe">Subscribe to our newsletter for updates</label>
+                                </div>
+
+                                <button type="submit" class="submit-btn">
+                                    <span>Send Message</span>
+                                    <i class="fa-solid fa-paper-plane"></i>
+                                </button>
+                            </form>
+
+                            <div id="formSuccess" class="form-success" style="display: none;">
+                                <i class="fa-solid fa-circle-check"></i>
+                                <p>Message sent successfully! We'll get back to you soon.</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Map Section -->
+                    <div class="map-section">
+                        <h3>Find Us Here</h3>
+                        <div class="map-container">
+                            <iframe
+                                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3925.591846882024!2d123.59863!3d9.8826!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x33ab2087a9a9a9a9%3A0x123456789abcdef!2sCebu%20Technological%20University%20-%20Argao%20Campus!5e0!3m2!1sen!2sph!4v1712345678901!5m2!1sen!2sph"
+                                style="border:0;" allowfullscreen="" loading="lazy">
+                            </iframe>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+    <script src="script.js"></script>
+</body>
+
+</html>
